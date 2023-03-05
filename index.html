@@ -1,0 +1,37 @@
+<html lang="en">
+    <head>
+        <title> GST Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            
+            <h1>GST CALCULATOR</h1>
+            <br>
+            <hr color="orangered">
+            
+            <label for="Price">Price :&nbsp;</label>
+            <input type="number" id="Price">
+            <br>
+            <div class="gstbox">
+                <label> GST &nbsp;: &nbsp;</label>
+                <select id="GST">
+                    <option value="0.03">3%</option>
+                    <option value="0.05">5%</option>
+                    <option value="0.08">8%</option>
+                    <option value="0.10">10%</option>
+                    <option value="0.12">12%</option>
+                    <option value="0.15">15%</option>
+                    <option value="0.18">18%</option>
+                    <option value="0.26">26%</option>
+                    <option value="0.28">28%</option>
+
+                </select>
+            </div>
+            <br>
+         <center><button onclick="Total()">Total Price</button></center>
+
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
